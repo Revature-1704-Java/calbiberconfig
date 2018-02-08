@@ -16,6 +16,9 @@ eureka:
 
 zuul:
   routes:
+    frontend:
+      path: /frontend/**
+      serviceId: frontend
     grade:
       path: /grade/**
       serviceId: grade
