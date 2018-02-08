@@ -58,5 +58,8 @@ zuul:
     security:
       path: /security/**
       serviceId: security
+    reporting:
+      path: /reporting/**
+      serviceId: reporting
 ribbon: 
   ReadTimeout: 300000
